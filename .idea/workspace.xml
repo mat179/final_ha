@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96e5a16a-7af8-4dae-9b33-0020d435fc75" name="Default Changelist" comment="" />
+    <list default="true" id="96e5a16a-7af8-4dae-9b33-0020d435fc75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/DoctorSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/DoctorSearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/RxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/RxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/UserAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/lanit/controllers/UserAccountController.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,19 +94,19 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="doctor" value="3" />
+          <entry key="doctor" value="4" />
           <entry key="java" value="132" />
           <entry key="properties" value="4" />
           <entry key="rx" value="3" />
           <entry key="sql" value="1" />
-          <entry key="user" value="2" />
+          <entry key="user" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Database Element" value="8" />
+          <entry key="Database Element" value="10" />
           <entry key="JAVA" value="132" />
           <entry key="Properties" value="4" />
           <entry key="Scratch" value="1" />
@@ -140,15 +145,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lanit/services/DoctorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="9">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="e#938#939#0" expanded="true" />
                 <element signature="e#994#995#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/doctor">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -201,15 +224,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lanit/utils/RxDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/lanit/controllers/RxController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1080">
@@ -218,18 +232,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#2322#2323#0" expanded="true" />
                 <element signature="e#2373#2374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/lanit/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,6 +259,9 @@
     <findStrings>
       <find>list</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -306,6 +311,7 @@
     <option name="width" value="1873" />
     <option name="height" value="1092" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -451,7 +457,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543524544530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543525791956" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -500,12 +506,12 @@
       <workItem from="1543152759076" duration="12760000" />
       <workItem from="1543251152338" duration="660000" />
       <workItem from="1543426298892" duration="5660000" />
-      <workItem from="1543522355021" duration="2549000" />
+      <workItem from="1543522355021" duration="3397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42765000" />
+    <option name="totallyTimeSpent" value="43613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,7 +526,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49190938" visible="true" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49190938" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.25266525" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,7 +556,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.22761194" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.22761194" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
@@ -609,20 +615,6 @@
       </provider>
     </entry>
     <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/rx">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/doctor">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -834,12 +826,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/lanit/services/DoctorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="9">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#994#995#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c519133a-92f1-4bc8-a1f7-a4b497c10598/database/healthappdb/schema/public/table/doctor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

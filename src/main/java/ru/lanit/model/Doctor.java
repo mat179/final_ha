@@ -38,7 +38,7 @@ public class Doctor {
     }
 
     @Basic
-    @Column(name = "create_time", nullable = false, updatable = false, insertable = false)
+    @Column(name = "create_time", nullable = false, updatable = false)
     public Date getCreateTime() {
         return createTime;
     }
