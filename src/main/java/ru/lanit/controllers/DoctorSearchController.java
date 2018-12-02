@@ -31,20 +31,20 @@ public class DoctorSearchController {
     public DoctorInfo getDoctors(){
         List<Doctor> docs =  doctorService.findAll();
         if (docs==null || docs.size()==0){
-            DoctorInfo info = new DoctorInfo("Не найдено!",null);
+            DoctorInfo info = new DoctorInfo("No Doctors found!",null);
             return info;
         }
-        DoctorInfo info = new DoctorInfo("Доктора:", docs );
+        DoctorInfo info = new DoctorInfo("Doctors found", docs );
         return info;
     }
     @RequestMapping(value = "/{code}", method = RequestMethod.GET)
     public DoctorInfo getBySpecialityCode(@PathVariable String code){
         List<Doctor> docs =  doctorService.findBySpeciality(code);
         if (docs==null || docs.size()==0){
-            DoctorInfo info = new DoctorInfo("Не найдено!",null);
+            DoctorInfo info = new DoctorInfo("No Doctors found!",null);
             return info;
         }
-        DoctorInfo info = new DoctorInfo("Доктора:", docs );
+        DoctorInfo info = new DoctorInfo("Doctors found", docs );
         return info;
     }
 

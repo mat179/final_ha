@@ -4,3 +4,4 @@
 target/classes/ru/lanit/controllers/DoctorSearchController.class
 target/classes/ru/lanit/controllers/RxController.class
 *.class
+*.class

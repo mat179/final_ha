@@ -36,7 +36,7 @@ public class UserAccountController {
        try {
            if (userService.doesUserExist(user.getEmail())!=null){
                logger.error("Пользователь уже существует: "+user.getEmail());
-               return new ExecutionStatus("-1000","Пользователь существует");
+               return new ExecutionStatus("USER_ACCOUNT_EXISTS","Пользователь существует");
            }
        } catch (UserNotFoundException e){
 
@@ -52,7 +52,7 @@ public class UserAccountController {
        userService.save(newUser);
        docService.addDoctor(newUser);
        logger.info("Пользователь создан: "+newUser.getEmail());
-       return new ExecutionStatus("0","Пользователь создан", newUser);
+       return new ExecutionStatus("USER_ACCOUNT_CREATED","Пользователь создан", newUser);
     }
 
 
